@@ -1,6 +1,4 @@
-import { Bell, Search, Settings } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { Input } from "@/components/ui/input";
 import { ReactNode } from "react";
 import { useNavigate } from "react-router-dom";
@@ -21,7 +19,7 @@ interface TopbarProps {
 
 export function Topbar({ title, children }: TopbarProps) {
   const navigate = useNavigate();
-  const { data: user, isLoading } = useUser();
+  const { data: user } = useUser();
 
   return (
     <div className="h-[120px] md:h-[100px] border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 px-4 md:px-6 mt-6">

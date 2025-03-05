@@ -1,5 +1,4 @@
 import ReactApexChart from 'react-apexcharts';
-import { ApexOptions } from 'apexcharts';
 import { useQuery } from '@tanstack/react-query';
 
 interface WeeklyData {
@@ -20,7 +19,7 @@ export default function WeeklyActivityChart() {
     }
   });
 
-  const options: ApexOptions = {
+  const options: any = {
     chart: {
       type: 'bar',
       toolbar: {

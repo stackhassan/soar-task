@@ -1,5 +1,4 @@
 import ReactApexChart from 'react-apexcharts';
-import { ApexOptions } from 'apexcharts';
 import { useQuery } from '@tanstack/react-query';
 
 interface ExpenseData {
@@ -17,7 +16,7 @@ export default function ExpenseStatisticsChart() {
     }
   });
 
-  const pieOptions: ApexOptions = {
+  const pieOptions: any = {
 
     labels: chartData?.labels || [],
     colors: ['#2B3674', '#4318FF', '#F6866A', '#000000'],
@@ -27,7 +26,7 @@ export default function ExpenseStatisticsChart() {
     },
     dataLabels: {
       enabled: true,
-      formatter: function(val: number, opts) {
+      formatter: function(val: number) {
         return `${val.toFixed(0)}%`;
       },
       style: {

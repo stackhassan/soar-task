@@ -1,5 +1,4 @@
 import ReactApexChart from 'react-apexcharts';
-import { ApexOptions } from 'apexcharts';
 import { useQuery } from '@tanstack/react-query';
 
 interface BalanceData {
@@ -20,7 +19,7 @@ export default function BalanceHistoryChart() {
     }
   });
 
-  const options: ApexOptions = {
+  const options: any = {
     chart: {
       type: 'area',
       height: 276,
