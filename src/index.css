@@ -121,4 +121,10 @@
   body {
     @apply bg-background text-foreground;
   }
+  .section_title{
+    @apply font-semibold text-[22px]
+  }
+  .section_card{
+    @apply bg-white p-6 rounded-[25px];
+  }
 }
