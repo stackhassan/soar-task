@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Livia Bator",
+      "position": "CEO",
+      "avatar": "/users_avatar/user_2.png"
+    },
+    {
+      "id": 2,
+      "name": "Randy Press",
+      "position": "Director",
+      "avatar": "/users_avatar/user_3.png"
+    },
+    {
+      "id": 3,
+      "name": "Workman",
+      "position": "Designer",
+      "avatar": "/users_avatar/user_4.png"
+    },
+    {
+      "id": 4,
+      "name": "Sarah Thompson",
+      "position": "Product Designer",
+      "avatar": "/users_avatar/user_2.png"
+    },
+    {
+      "id": 5,
+      "name": "Michael Chen",
+      "position": "Developer",
+      "avatar": "/users_avatar/user_3.png"
+    },
+    {
+      "id": 6,
+      "name": "Anna Williams",
+      "position": "Marketing Lead",
+      "avatar": "/users_avatar/user_4.png"
+    },
+    {
+      "id": 7,
+      "name": "David Lee",
+      "position": "Project Manager",
+      "avatar": "/users_avatar/user_2.png"
+    },
+    {
+      "id": 8,
+      "name": "Ella Johnson",
+      "position": "HR Manager",
+      "avatar": "/users_avatar/user_3.png"
+    },
+    {
+      "id": 9,
+      "name": "Lucas Scott",
+      "position": "UX/UI Designer",
+      "avatar": "/users_avatar/user_4.png"
+    },
+    {
+      "id": 10,
+      "name": "Olivia Brown",
+      "position": "Software Engineer",
+      "avatar": "/users_avatar/user_2.png"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "icon": "icons/cards.svg",
+      "iconBgColor": "bg-yellow-100",
+      "title": "Deposit from my Card",
+      "date": "28 January 2021",
+      "amount": "-$850",
+      "amountColor": "text-red-500"
+    },
+    {
+      "id": 2,
+      "icon": "icons/paypal.svg",
+      "iconBgColor": "bg-blue-100",
+      "title": "Deposit PayPal",
+      "date": "25 January 2021",
+      "amount": "+$2,500",
+      "amountColor": "text-green-500"
+    },
+    {
+      "id": 3,
+      "icon": "icons/dollar.svg",
+      "iconBgColor": "bg-blue-100",
+      "title": "Jemi Wilson",
+      "date": "21 January 2021",
+      "amount": "+$5,400",
+      "amountColor": "text-green-500"
+    },
+    {
+      "id": 4,
+      "icon": "icons/cards.svg",
+      "iconBgColor": "bg-yellow-100",
+      "title": "Netflix Subscription",
+      "date": "18 January 2021",
+      "amount": "-$14.99",
+      "amountColor": "text-red-500"
+    },
+    {
+      "id": 5,
+      "icon": "icons/dollar.svg",
+      "iconBgColor": "bg-blue-100",
+      "title": "Salary Deposit",
+      "date": "15 January 2021",
+      "amount": "+$8,000",
+      "amountColor": "text-green-500"
+    },
+    {
+      "id": 6,
+      "icon": "icons/cards.svg",
+      "iconBgColor": "bg-yellow-100",
+      "title": "Amazon Purchase",
+      "date": "12 January 2021",
+      "amount": "-$253.50",
+      "amountColor": "text-red-500"
+    },
+    {
+      "id": 7,
+      "icon": "icons/paypal.svg",
+      "iconBgColor": "bg-blue-100",
+      "title": "Freelance Payment",
+      "date": "10 January 2021",
+      "amount": "+$1,200",
+      "amountColor": "text-green-500"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "type": "Mastercard",
+      "number": "3435 4567 1287 4242",
+      "expiry": "04/24",
+      "holder": "JOHN DOE",
+      "bank": "Universal Bank",
+      "balance": 12450.8,
+      "color": "from-[#5B5A6F] to-[#000000]",
+      "theme": "dark"
+    },
+    {
+      "id": 2,
+      "type": "Mastercard",
+      "number": "2121 6565 5555 4444",
+      "expiry": "08/25",
+      "holder": "JOHN DOE",
+      "bank": "Global Bank",
+      "balance": 8320.5,
+      "color": "bg-[#ffffff]",
+      "theme": "white"
+    },
+    {
+      "id": 3,
+      "type": "Visa",
+      "number": "4532 7890 1122 3344",
+      "expiry": "12/26",
+      "holder": "JANE SMITH",
+      "bank": "Elite Bank",
+      "balance": 9450.3,
+      "color": "from-[#FFC107] to-[#FF5722]",
+      "theme": "dark"
+    },
+    {
+      "id": 4,
+      "type": "Mastercard",
+      "number": "6789 1234 5678 9101",
+      "expiry": "01/28",
+      "holder": "EMILY DAVIS",
+      "bank": "National Bank",
+      "balance": 7654.7,
+      "color": "bg-[#4CAF50]",
+      "theme": "white"
+    },
+    {
+      "id": 5,
+      "type": "Visa",
+      "number": "9876 5432 1098 7654",
+      "expiry": "07/27",
+      "holder": "MICHAEL JOHNSON",
+      "bank": "Pacific Bank",
+      "balance": 15320.9,
+      "color": "from-[#2196F3] to-[#1976D2]",
+      "theme": "dark"
+    }
+  ]
+}

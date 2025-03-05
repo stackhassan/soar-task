@@ -1,0 +1,19 @@
+{
+  "user": {
+    "id": 1,
+    "name": "Charlene Reed",
+    "username": "charlenered",
+    "email": "charlenereed@gmail.com",
+    "avatar": "/users_avatar/user_1.png",
+    "role": "Premium Member",
+    "dateOfBirth": "1990-01-25",
+    "presentAddress": "San Jose, California, USA",
+    "permanentAddress": "San Jose, California, USA",
+    "city": "San Jose",
+    "postalCode": "45962",
+    "country": "USA",
+    "phone": "+1 (555) 123-4567",
+    "joinDate": "2021-06-15",
+    "lastLogin": "2024-03-05T08:30:00Z"
+  }
+}

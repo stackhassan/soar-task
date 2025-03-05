@@ -1,0 +1,13 @@
+{
+  "series": [
+    {
+      "name": "Withdraw",
+      "data": [450, 300, 300, 450, 150, 380, 380]
+    },
+    {
+      "name": "Deposit",
+      "data": [230, 130, 250, 380, 230, 230, 320]
+    }
+  ],
+  "categories": ["Sat", "Sun", "Mon", "Tue", "Wed", "Thu", "Fri"]
+}
