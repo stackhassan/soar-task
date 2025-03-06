@@ -13,7 +13,7 @@ export default function WeeklyActivityChart() {
   const { data: chartData, isLoading } = useQuery({
     queryKey: ['/api/weeklyActivity'],
     queryFn: async () => {
-      const response = await fetch('/src/data/weeklyActivityData.json');
+      const response = await fetch('/data/weeklyActivityData.json');
       const data = await response.json();
       return data as WeeklyData;
     }

@@ -55,7 +55,7 @@ export default function Cards({ showAll = false }) {
   const { data: cards, isLoading } = useQuery({
     queryKey: ['/api/cards'],
     queryFn: async () => {
-      const response = await fetch('/src/data/cardsData.json');
+      const response = await fetch('/data/cardsData.json');
       const data = await response.json();
       return data.cards as Card[];
     }

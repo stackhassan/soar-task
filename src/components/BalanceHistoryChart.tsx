@@ -13,7 +13,7 @@ export default function BalanceHistoryChart() {
   const { data: chartData, isLoading } = useQuery({
     queryKey: ['/api/balanceHistory'],
     queryFn: async () => {
-      const response = await fetch('/src/data/balanceHistoryData.json');
+      const response = await fetch('/data/balanceHistoryData.json');
       const data = await response.json();
       return data as BalanceData;
     }

@@ -10,7 +10,7 @@ export default function ExpenseStatisticsChart() {
   const { data: chartData, isLoading } = useQuery({
     queryKey: ['/api/expenseStatistics'],
     queryFn: async () => {
-      const response = await fetch('/src/data/expenseStatisticsData.json');
+      const response = await fetch('/data/expenseStatisticsData.json');
       const data = await response.json();
       return data as ExpenseData;
     }

@@ -15,7 +15,7 @@ export default function TransactionList() {
   const { data: transactions, isLoading } = useQuery({
     queryKey: ['/api/transactions'],
     queryFn: async () => {
-      const response = await fetch('/src/data/transactionsData.json');
+      const response = await fetch('/data/transactionsData.json');
       const data = await response.json();
       return data.transactions as Transaction[];
     }

@@ -27,7 +27,7 @@ export default function QuickTransfer() {
     queryKey: ["/api/quickTransferUsers"],
     queryFn: async () => {
       // In a real app, this would be an API call
-      const response = await fetch("/src/data/quickTransferUsers.json");
+      const response = await fetch("/data/quickTransferUsers.json");
       const data = await response.json();
       return data.users as User[];
     },
@@ -195,4 +195,3 @@ export default function QuickTransfer() {
       </div>
     );
   };
-
