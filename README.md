@@ -103,13 +103,17 @@ soar-task/
    - Implement React Query for server state management
    - Follow proper data fetching patterns
 
-## Contributing
+## Screenshots
 
-1. Create a feature branch
-2. Make your changes
-3. Test thoroughly
-4. Submit a pull request
+1. Desktop
+![Screenshot 2025-03-06 at 12 01 23 PM](https://github.com/user-attachments/assets/d77289f9-0a09-413f-9dcc-12a4722edf94)
+![Screenshot 2025-03-06 at 12 01 30 PM](https://github.com/user-attachments/assets/c5da3fac-25f9-47bd-b220-c8014210cf15)
 
-## License
+2. Mobile
 
-This project is licensed under the MIT License - see the LICENSE file for details
+![Screenshot 2025-03-06 at 12 02 08 PM](https://github.com/user-attachments/assets/bf5dec9e-336a-4375-b9cd-79f84a651c23)
+![Screenshot 2025-03-06 at 12 01 49 PM](https://github.com/user-attachments/assets/6c2bbc3c-ff8e-4c19-88bd-9773f8f2ea06)
+![Screenshot 2025-03-06 at 12 01 58 PM](https://github.com/user-attachments/assets/367fe1cd-0801-4a5d-9824-c5dc128cddba)
+
+
+
