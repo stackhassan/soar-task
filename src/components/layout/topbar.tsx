@@ -101,7 +101,9 @@ export function Topbar({ title, children }: TopbarProps) {
                 <img
                   src={user?.avatar}
                   alt="profile"
-                  className="size-[35px] md:size-[60px] rounded-full cursor-pointer"
+                  width={60}
+                  height={60}
+                  className="h-[35px] w-[38px] md:h-[60px] md:w-auto rounded-full cursor-pointer"
                 />
               </DropdownMenuTrigger>
               <DropdownMenuContent align="end">
