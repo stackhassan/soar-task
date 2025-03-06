@@ -88,10 +88,6 @@ export default function QuickTransfer() {
     }, []);
 
     useEffect(() => {
-      inputRef.current?.focus();
-    }, []);
-
-    useEffect(() => {
       if (!isLoading && users) {
         handleScroll();
       }
