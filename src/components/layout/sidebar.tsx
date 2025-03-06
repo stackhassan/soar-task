@@ -32,7 +32,7 @@ export function Sidebar({ className }: { className?: string }) {
           <div className="flex h-8 items-center gap-2">
             <img src="/icons/task.svg" className="h-[29.16px] w-auto" />
             <span className="font-semibold tracking-tight text-[25px]">
-              Solar Task
+              Soar Task
             </span>
           </div>
         </Link>
