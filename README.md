@@ -46,7 +46,7 @@ npm install
 npm run dev
 ```
 
-The application will be available at `http://localhost:5000`.
+The application will be available at `http://localhost:5173`.
 
 ## Available Scripts
 
@@ -54,7 +54,6 @@ The application will be available at `http://localhost:5000`.
 - `npm run build` - Creates a production build
 - `npm run preview` - Serves the production build locally
 - `npm run lint` - Runs ESLint
-- `npm run type-check` - Runs TypeScript type checking
 
 ## Project Structure
 
@@ -63,15 +62,13 @@ soar-task/
 ├── client/
 │   ├── src/
 │   │   ├── components/    # Reusable components
-│   │   ├── data/         # Mock JSON data
 │   │   ├── hooks/        # Custom React hooks
 │   │   ├── lib/          # Utility functions
 │   │   ├── pages/        # Page components
 │   │   ├── store/        # Redux store setup
 │   │   └── App.tsx       # Main application component
-├── server/               # Backend server code
-├── shared/              # Shared types and utilities
 └── public/              # Static assets
+│   ├── data/ # Mocked API
 ```
 
 ## Component Guidelines
